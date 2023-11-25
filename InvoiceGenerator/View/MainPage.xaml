@@ -8,7 +8,28 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Background="Black">
+        <NavigationView x:Name="MainNavigationTabs" 
+                        PaneDisplayMode="Top" 
+                        IsBackButtonVisible="Collapsed"
+                        SelectionChanged="{x:Bind ViewModel.MainNavigationTabs_SelectionChanged}">
+            <NavigationView.MenuItems>
+                <NavigationViewItem x:Name="FirstTab" 
+                                    Content="Aba 1"
+                                    Tag="Aba1Page"
+                                    Icon="AddFriend"/>
+                <NavigationViewItem x:Name="SecondTab"
+                                    Content="Aba 2"
+                                    Tag="Aba2Page"
+                                    Icon="AllApps"/>
+                <NavigationViewItem x:Name="ThirdTab"
+                                    Content="Aba 3"
+                                    Tag="Aba3Page"
+                                    Icon="Bookmarks"/>
+            </NavigationView.MenuItems>
 
+            <Frame x:Name="ContentFrame"
+                   Loaded="{x:Bind ViewModel.ContentFrame_Loaded}"/>
+        </NavigationView>
     </Grid>
 </Page>
