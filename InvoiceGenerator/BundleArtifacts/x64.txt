@@ -1,0 +1,2 @@
+MainPackage=D:\01_Desktop\Developer\Softwares\C#\InvoiceGenerator\InvoiceGenerator\bin\x64\Debug\InvoiceGenerator_0.1.0.0_x64_Debug.appx
+SymbolPackage=D:\01_Desktop\Developer\Softwares\C#\InvoiceGenerator\InvoiceGenerator\obj\x64\Debug\Symbols\InvoiceGenerator_0.1.0.0_x64_Debug.appxsym

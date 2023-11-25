@@ -9,7 +9,7 @@
   <Identity
     Name="3587957d-400e-4fa5-8cb8-c29c3b2d404c"
     Publisher="CN=luansp"
-    Version="1.0.0.0" />
+    Version="0.1.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="3587957d-400e-4fa5-8cb8-c29c3b2d404c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
